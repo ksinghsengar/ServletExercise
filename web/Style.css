@@ -1,0 +1,75 @@
+body {
+    background-color: #040C65;
+}
+
+.well {
+    background-color: white;
+    font-size: 16px;
+    font-family: Verdana;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    /*position: fixed;*/
+}
+
+input,textarea {
+    height: 35px;
+    border-radius: 5px;
+    margin-bottom: 16px;
+}
+
+.well+div {
+    padding-top: 1%;
+    padding-bottom: 6%;
+}
+
+.left p:first-child {
+    font-size: 34px;
+    color: white;
+    font-weight: bolder;
+}
+
+.left p {
+    font-size: 20px;
+    color: white;
+}
+
+button {
+    background-color: transparent;
+    color: white;
+    padding: 4px;
+    border: 1px solid white;
+    border-radius: 15px;
+}
+
+.well span:first-child {
+    font-size: 25px;
+    font-weight: bolder;
+    color: #040C65;
+}
+
+.login p ,.register p,.blog_form p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 20px;
+}
+
+.login {
+    margin-top: 5%;
+}
+
+.panel-body {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: auto;
+}
+
+.glyphicon-user {
+    font-size: 80px;
+    border: 2px solid black;
+}
+
+.fa {
+    font-size: 20px;
+    margin: 5px;
+    color: black;
+}
